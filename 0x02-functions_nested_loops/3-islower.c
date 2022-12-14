@@ -3,6 +3,8 @@
 /**
  * _islower - Indicate whether c is lower
  *
+ * @c: A character in ASCII code
+ *
  * Return: 1 for success
  */
 
@@ -12,7 +14,7 @@ int _islower(int c)
 	{
 		return (1);
 	}
-       	else
+	else
 	{
 		return (0);
 	}
