@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 /**
  * main - Prints 1 to 100, FizzBuzz for multiples of 15
  * Fizz for multiples of 3 and Buzz for multiples of 5
  * Return: Always 0
  */
-
-int maint(void)
+int main(void)
 {
 	int n;
 
