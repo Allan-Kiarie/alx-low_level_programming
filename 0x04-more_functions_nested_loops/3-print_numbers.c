@@ -2,6 +2,7 @@
 
 /**
  * print_numbers - Prints 0 to 9 and new line
+ * _putchar - prints characters
  * Return: void
  */
 
