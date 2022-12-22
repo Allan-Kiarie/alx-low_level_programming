@@ -3,6 +3,7 @@
 /**
  * string_toupper - changes all lowercase letters 
  * of a string to uppercase
+ *@s: input string
  *
  * Return: point to new string
  */
@@ -18,7 +19,7 @@ char *string_toupper(char *)
 		{
 			s[i] = s[i] - 32;
 		}
-		i++
+		i++;
 	}
 
 	return (s);
