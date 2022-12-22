@@ -8,9 +8,8 @@
  * Return: point to new string
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
-	char *s;
 	int i = 0;
 
 	while (s[i] != 0)
