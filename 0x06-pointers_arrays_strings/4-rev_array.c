@@ -2,8 +2,8 @@
 
 /**
  * reverse_array - reverse the content of an array of integers
- * @a: input integer
- * @ n: input integer
+ * @a: an array
+ * @ n: elements in the array
  * Return: void
  */
 
@@ -15,9 +15,9 @@ void reverse_array(int *a, int n)
 	{
 		for (j = i + 1; j > 0; j--)
 		{
-			k = a[j];
-			a[j] = a[j - 1];
-			a[j - 1] = k;
+			k = *(a + j);
+			*(a + j) = *(a + (j -1));
+			*(a + (j - 1)) = k;
 		}
 	}
 }
