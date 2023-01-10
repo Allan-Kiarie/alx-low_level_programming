@@ -3,7 +3,7 @@
 /**
  * main - multiplies two numbers
  * @argc: number of CLI arguments
- * @argc: array of pointers to CLI arguments
+ * @argv: array of pointers to CLI arguments
  * Return: 0 if success
  */
 int main(int argc, char **argv)
