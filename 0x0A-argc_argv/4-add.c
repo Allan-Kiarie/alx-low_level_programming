@@ -5,6 +5,7 @@
  * main - adds positive numbers
  * @argc: number of CLI arguments
  * @argv: array of pointers to CLI arguments
+ * Return: 0 on success
  */
 int main(int argc, char **argv)
 {
