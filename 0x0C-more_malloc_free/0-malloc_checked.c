@@ -4,7 +4,7 @@
  * malloc_checked - allocates memory using malloc
  * @b: bytes to be allocated
  * Return: pointer to allocated memory
- * if malloc fails, status value is 98
+ * if malloc fails, return NULL
  */
 void *malloc_checked(unsigned int b)
 {
@@ -13,7 +13,7 @@ void *malloc_checked(unsigned int b)
 	ptr = malloc(b);
 
 	if (ptr == NULL)
-		exit (98);
+		return (NULL);
 
 	return (ptr);
 }
