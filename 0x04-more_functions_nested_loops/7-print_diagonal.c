@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
- * print_diagonal - prints diagonal line
- * @n: number of times line is printed
- * Return: void
+ * print_diagonal - prints a diagonal line
+ * @n: number of times '\' is printed
+ * Return: nothing
  */
-
 void print_diagonal(int n)
 {
 	int i, j;
@@ -19,9 +17,7 @@ void print_diagonal(int n)
 		_putchar(92);
 
 		if (i < (n -1))
-		{
 			_putchar('\n');
-		}
 	}
 	_putchar('\n');
 }
