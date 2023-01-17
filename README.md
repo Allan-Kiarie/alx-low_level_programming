@@ -1,1 +1,1 @@
-The basics of the C programming language
+Introduction to structures
