@@ -3,9 +3,9 @@
 Project completed towards attainment of **Full Stack Software Engineering** at **ALX**. Learning aboutlinked lists in **C programming**.
 
 ##Technologies used:
-C files compiled using `gcc`
-C files written according to Betty Style
-Tested on Ubuntu 20.04 LTS
+-C files compiled using `gcc`
+-C files written according to Betty Style
+-Tested on Ubuntu 20.04 LTS
 
 ## Files
 All of the following files are programs written in C:
