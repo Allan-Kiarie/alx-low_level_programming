@@ -15,6 +15,7 @@ int sum_dlistint(dlistint_t *head)
 		return (0);
 
 	sum = 0;
+	temp = head;
 	while (temp->next)
 	{
 		sum += temp->n;
