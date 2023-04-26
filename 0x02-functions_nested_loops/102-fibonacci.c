@@ -7,18 +7,21 @@
  */
 int main()
 {
-    long int num1 = 1, num2 = 2, sum;
-    int i;
-    printf("%ld, %ld", num1, num2);
+	int i;
+	long int num1, num2, fib;
 
-    for(i = 0; i < 48; i++)
-    {
-        sum = num1 + num2;
-        printf(", %ld", sum);
-        num1 = num2;
-        num2 = sum;
-    }
+	num1 = 1;
+	num2 = 2;
+	printf("%ld, %ld", num1, num2);
 
-    printf("\n");
-    return (0);
+	for (i = 0; i < 48; i++)
+	{
+		fib = num1 + num2;
+		printf(", %ld", fib);
+		num1 = num2;
+		num2 = fib;
+	}
+
+	printf("\n");
+	return (0);
 }
