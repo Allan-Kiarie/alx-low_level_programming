@@ -10,6 +10,7 @@
 int main(void)
 {
 	long int num1, num2, fib, sum;
+
 	num1 = 1;
 	num2 = 2;
 	fib = 0;
