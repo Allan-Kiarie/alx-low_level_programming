@@ -5,7 +5,7 @@
  *
  * Return: always 0
  */
-int main()
+int main(void)
 {
 	int i;
 	long int num1, num2, fib;
