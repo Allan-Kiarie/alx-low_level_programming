@@ -1,4 +1,4 @@
-#0x02. C - Functions, nested loops
+### 0x02. C - Functions, nested loops
 
 ## Description
 This project was completed during the **Full Stack Software Engineering** program at ***ALX***. During this project, I learned about:
@@ -10,7 +10,7 @@ This project was completed during the **Full Stack Software Engineering** progra
 * The use of `gcc` flags `-Wall -Werror -pedantic -Wextra -std=gnu89`
 * What header files are and how to use them with #include
 
-##Files
+## Files
 * All C Files are written according to Betty Coding Style, and tested on Ubuntu 20.04 LTS.
 
 | Files | Description |
@@ -32,7 +32,7 @@ This project was completed during the **Full Stack Software Engineering** progra
 | `102-fibonacci.c` | Prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line |
 | `103-fibonacci.c` | Prints sum of even-valued fibonacci numbers below 4,000,000 |
 
-##Tasks
+## Tasks
 
 **0. _putchar**
 Write a program that prints _putchar, followed by a new line.
