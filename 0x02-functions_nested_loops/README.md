@@ -2,7 +2,7 @@
 
 ## Description
 This project was completed during the **Full Stack Software Engineering** program at ***ALX***. During this project, I learned about:
-* What nested loos are and how to use them.
+* What nested loops are and how to use them.
 * what a function is and how to use functions.
 * The difference between declaration and definition of functions.
 * Function prototypes.
